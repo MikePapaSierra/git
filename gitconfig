@@ -22,7 +22,7 @@
     colorMoved = default
 
 [include]
-    path = ./themes/delta/catppuccin.gitconfig
+    path = /home/mps/.config/git/themes/delta/catppuccin.gitconfig
 
 [alias]
   a = "!git status --short | peco | awk '{print $2}' | xargs git add"
